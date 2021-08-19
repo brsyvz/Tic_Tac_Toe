@@ -1,0 +1,162 @@
+:root {
+  --bg_color: #C0C0C0;
+  --header_bg_color: #4c5c68;
+  --border_color: #3F3F3F;
+  --font_color: #46494b;
+  --font: 'Lato', sans-serif;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font);
+background-color: var(--bg_color);
+color: #4D4D4D;
+}
+
+h1{
+  background-color:#ADADAD;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size:60px;
+ 
+}
+
+#statusText{
+  background-color:#F2F2F2;
+  width: 753px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size:40px;
+  margin:10px 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.gameField {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 750px;
+  height: 600px;
+  margin: 0 auto;
+  border: 3px solid var(--border_color);
+  background-color: #CDCDCD;
+}
+
+
+.box {
+  border: 2px solid var(--border_color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box:hover {
+   background-color:
+   #EEEEEE;
+   
+}
+/* 
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3) {
+  border-top: none;
+  
+}
+
+.box:nth-child(3),
+.box:nth-child(6),
+.box:nth-child(9) {
+  border-right: none;
+}
+.box:nth-child(7),
+.box:nth-child(8),
+.box:nth-child(9) {
+  border-bottom: none;
+}
+
+.box:nth-child(1),
+.box:nth-child(4),
+.box:nth-child(7) {
+  border-left: none;
+}  */
+
+.x {
+  background: url("../img/x.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: not-allowed;
+}
+
+.o {
+  background: url("../img/o.png");
+  background-size: 67%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: not-allowed;
+}
+
+#resetBtn{
+  width: 377px;
+  padding: 15px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: inherit;
+  margin-top: 10px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color:#ADADAD;
+  text-align: center;
+  font-size: 22px;
+}
+
+.fa-github {
+  margin-left: 6px;
+}
+
+
+@media (max-width: 770px) {
+  
+
+  .gameField {
+    
+    width: 360px;
+    height: 340px;
+  
+  }
+  
+}
