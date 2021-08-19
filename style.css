@@ -1,9 +1,9 @@
 :root {
-  --bg_color: #C0C0C0;
+  --bg_color: #c0c0c0;
   --header_bg_color: #4c5c68;
-  --border_color: #3F3F3F;
+  --border_color: #3f3f3f;
   --font_color: #46494b;
-  --font: 'Lato', sans-serif;
+  --font: "Lato", sans-serif;
 }
 html {
   height: 100%;
@@ -22,27 +22,26 @@ body {
   min-height: 100%;
   font-family: var(--font);
   background-color: var(--bg_color);
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
-h1{
-  background-color:#ADADAD;
+h1 {
+  background-color: #adadad;
   width: 100%;
   text-align: center;
   margin: 0;
   padding: 10px;
-  font-size:60px;
- 
+  font-size: 60px;
 }
 
-#statusText{
-  background-color:#F2F2F2;
+#statusText {
+  background-color: #f2f2f2;
   width: 753px;
   text-align: center;
   margin: 0;
   padding: 10px;
-  font-size:40px;
-  margin:10px 0px;
+  font-size: 40px;
+  margin: 10px 0px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -61,9 +60,8 @@ h1{
   height: 600px;
   margin: 0 auto;
   border: 3px solid var(--border_color);
-  background-color: #CDCDCD;
+  background-color: #cdcdcd;
 }
-
 
 .box {
   border: 2px solid var(--border_color);
@@ -74,9 +72,7 @@ h1{
 }
 
 .box:hover {
-   background-color:
-   #EEEEEE;
-   
+  background-color: #eeeeee;
 }
 
 .x {
@@ -95,7 +91,7 @@ h1{
   cursor: not-allowed;
 }
 
-#resetBtn{
+#resetBtn {
   width: 377px;
   padding: 15px;
   border: none;
@@ -111,7 +107,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 10px;
-  background-color:#ADADAD;
+  background-color: #adadad;
   text-align: center;
   font-size: 22px;
 }
@@ -120,11 +116,9 @@ footer {
   margin-left: 6px;
 }
 
-
 @media (max-width: 770px) {
   .gameField {
     width: 360px;
     height: 340px;
   }
-  
 }
