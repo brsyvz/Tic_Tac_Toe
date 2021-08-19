@@ -76,7 +76,7 @@ h1 {
 }
 
 .x {
-  background-image: url(..img/x.png);
+  background-image: url("../img/x.PNG");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
