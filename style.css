@@ -16,15 +16,13 @@ html {
   box-sizing: inherit;
 }
 
-
-
 body {
   position: relative;
   margin: 0;
   min-height: 100%;
   font-family: var(--font);
-background-color: var(--bg_color);
-color: #4D4D4D;
+  background-color: var(--bg_color);
+  color: #4D4D4D;
 }
 
 h1{
@@ -48,8 +46,6 @@ h1{
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-
-
 
 .wrapper {
   display: flex;
@@ -108,7 +104,7 @@ h1{
 }  */
 
 .x {
-  background: url(../img/x.png);
+  background: url("../img/x.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -150,13 +146,9 @@ footer {
 
 
 @media (max-width: 770px) {
-  
-
   .gameField {
-    
     width: 360px;
     height: 340px;
-  
   }
   
 }
