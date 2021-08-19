@@ -78,30 +78,6 @@ h1{
    #EEEEEE;
    
 }
-/* 
-.box:nth-child(1),
-.box:nth-child(2),
-.box:nth-child(3) {
-  border-top: none;
-  
-}
-
-.box:nth-child(3),
-.box:nth-child(6),
-.box:nth-child(9) {
-  border-right: none;
-}
-.box:nth-child(7),
-.box:nth-child(8),
-.box:nth-child(9) {
-  border-bottom: none;
-}
-
-.box:nth-child(1),
-.box:nth-child(4),
-.box:nth-child(7) {
-  border-left: none;
-}  */
 
 .x {
   background-image: url("/img/x.png");
@@ -112,7 +88,7 @@ h1{
 }
 
 .o {
-  background-image: url("../img/o.png");
+  background-image: url("/img/o.png");
   background-size: 67%;
   background-repeat: no-repeat;
   background-position: center;
