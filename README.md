@@ -35,7 +35,7 @@ Live: https://brsyvz.github.io/Tic_Tac_Toe/
 
 + 4-) Any time we click on boxes, we also check the gameboard if we have a winner or the game is tie.
     
-    + 4.1 - Example winner check: <code>const horizontal_1 = boxIndex[0] + boxIndex[1] + boxIndex[2]; if (horizontal_1 === "xxx") --> "X wins" </code>
+    + 4.1 - Example winner check: <code>const horizontal_1 = boxIndex[0] + boxIndex[1] + boxIndex[2];</code>  <code>if (horizontal_1 === "xxx") --> "X wins" </code>
     
     + 4.2 - Draw check: <code>if (boxIndex.includes("box") === false) "draw"</code> and <code>gameField.style.pointerEvents = "none";</code>
     
