@@ -36,7 +36,7 @@ h1 {
 
 #statusText {
   background-color: #f2f2f2;
-  width: 753px;
+  width:50%;
   text-align: center;
   margin: 0;
   padding: 10px;
@@ -116,9 +116,17 @@ footer {
   margin-left: 6px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 750px) {
   .gameField {
     width: 360px;
     height: 340px;
+  }
+
+  #resetBtn{
+    width:100%;
+  }
+
+  #statusText{
+    width:100%;
   }
 }
