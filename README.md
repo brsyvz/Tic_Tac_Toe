@@ -1,4 +1,4 @@
-Live: https://brsyvz.github.io/tic_tac_toe/
+Live: https://brsyvz.github.io/tic-tac-toe/
 
 ### Contents:
 1 - [About](#about)\
